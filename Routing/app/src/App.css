@@ -1,0 +1,33 @@
+nav{
+  
+  height: 50px;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
+}
+.nav-link{
+  padding: 10px 10px;
+  font-size: 25px;
+  border: none;
+  color: aqua;
+}
+.nav-link:hover{
+  color: brown;
+}
+nav .active{
+  color: crimson;
+}
+
+section{
+  display: grid;
+  grid-gap: 1rem;
+  
+}
+section article{
+  background-color: aliceblue;
+  margin: 1rem;
+  padding: 1rem;
+}
+
